@@ -1,0 +1,8 @@
+{
+"name":"HSC Mission 365",
+"short_name":"HSC365",
+"display":"standalone",
+"start_url":"./",
+"background_color":"#0f172a",
+"theme_color":"#2563eb"
+}
