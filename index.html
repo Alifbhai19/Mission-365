@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSC Mission 365</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="card">
+<h1>HSC Mission 365</h1>
+<p>Alif Bhai • HSC 28 Science</p>
+</div>
+
+<div class="card">
+<h2 id="day">Day 1</h2>
+
+<div class="task">
+<span>Biology</span>
+<input type="checkbox">
+</div>
+
+<div class="task">
+<span>Physics</span>
+<input type="checkbox">
+</div>
+
+<div class="task">
+<span>Chemistry</span>
+<input type="checkbox">
+</div>
+
+<div class="task">
+<span>Higher Math</span>
+<input type="checkbox">
+</div>
+
+<p id="status">Done: 0/4</p>
+
+<div class="progress">
+<div class="bar" id="bar"></div>
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>আজকের টপিক</h3>
+
+<p><b>Biology:</b> <span id="bio"></span></p>
+<p><b>Physics:</b> <span id="phy"></span></p>
+<p><b>Chemistry:</b> <span id="chem"></span></p>
+<p><b>Higher Math:</b> <span id="math"></span></p>
+
+</div>
+
+<button onclick="finishDay()">
+আজকের Mission Complete
+</button>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+  </html>
